@@ -19,6 +19,7 @@ export { default as TwitterIcon } from "./Twitter";
 export { default as RedditIcon } from "./Reddit";
 export { default as AuditIcon } from "./Audit";
 export { default as GooseIcon } from "./Goose";
+export { default as MineIcon } from "./Mine";
 export { default as HandshakeIcon } from "./Handshake";
 export { default as LayerIcon } from "./Layer";
 export { default as RoadmapIcon } from "./Roadmap";
