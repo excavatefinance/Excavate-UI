@@ -1871,8 +1871,8 @@ var Icon$n = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/axe/logo_inline.png' : '/images/axe/logo_inline_black.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 100 26" }, props),
+        React__default['default'].createElement("image", { width: "100", height: "26", href: isDark ? '/images/axe/logo_inline.png' : '/images/axe/logo_inline_black.png' })));
 };
 
 var Icon$m = function (props) {
@@ -2044,7 +2044,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Excavate home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Excavate home page" }, innerLogo))));
 };
 var templateObject_1$c;
 
@@ -2820,7 +2820,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FFFFFF", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FFFFFF", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#a77136", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
