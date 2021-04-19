@@ -111,7 +111,7 @@ const PanelFooter: React.FC<Props> = ({
         </Flex>
       </SocialEntry>
       <SettingsEntry>
-        <Button variant="text" onClick={() => toggleTheme(!isDark)}>
+        <Button className="theme__toggle" variant="text" onClick={() => toggleTheme(!isDark)}>
           {/* alignItems center is a Safari fix */}
           <Flex alignItems="center">
             <SunIcon color={isDark ? "textDisabled" : "text"} width="24px" />
