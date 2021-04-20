@@ -17,7 +17,6 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   left: 0;
   display: flex;
   flex-direction: column;
-  background-color: #AC753A;
   justify-content: space-between;
   flex-shrink: 0;
   background-color: ${({ theme }) => theme.nav.background};
