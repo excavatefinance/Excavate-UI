@@ -833,7 +833,7 @@ var style = (_a$2 = {},
         fontSize: "64px",
     },
     _a$2);
-var Heading = styled(Text).attrs({ bold: true })(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n  letter-spacing: 3px;\n  color: #27262C;\t\n"], ["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n  letter-spacing: 3px;\n  color: #27262C;\t\n"])), function (_a) {
+var Heading = styled(Text).attrs({ bold: true })(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n  letter-spacing: 3px;\t\n"], ["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n  letter-spacing: 3px;\t\n"])), function (_a) {
     var size = _a.size;
     return style[size || sizes.MD];
 });
@@ -2300,7 +2300,7 @@ var MenuLink = function (_a) {
 };
 
 var Icons$1 = IconModule;
-var Container$1 = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background-color: #AC753A;\n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background-color: #AC753A;\n"])));
+var Container$1 = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  \n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  \n"])));
 var PanelBody = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav, isMobile = _a.isMobile, links = _a.links;
     var location = useLocation();
