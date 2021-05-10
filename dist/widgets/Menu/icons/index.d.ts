@@ -24,6 +24,7 @@ export { default as NodesIcon } from "./Nodes";
 export { default as QuarryIcon } from "./Quarry";
 export { default as LaunchIcon } from "./Launch";
 export { default as LockupsIcon } from "./Lockups";
+export { default as SmeltIcon } from "./Smelt";
 export { default as HandshakeIcon } from "./Handshake";
 export { default as LayerIcon } from "./Layer";
 export { default as RoadmapIcon } from "./Roadmap";
