@@ -20,6 +20,8 @@ export { default as RedditIcon } from "./Reddit";
 export { default as AuditIcon } from "./Audit";
 export { default as GooseIcon } from "./Goose";
 export { default as MineIcon } from "./Mine";
+export { default as NodesIcon } from "./Nodes";
+export { default as QuarryIcon } from "./Quarry";
 export { default as HandshakeIcon } from "./Handshake";
 export { default as LayerIcon } from "./Layer";
 export { default as RoadmapIcon } from "./Roadmap";
