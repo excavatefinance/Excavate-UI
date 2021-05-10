@@ -1,6 +1,7 @@
 import { DefaultTheme } from "styled-components";
 export interface Props {
     secondary?: boolean;
+    quaternary?: boolean;
     isActive?: boolean;
     theme: DefaultTheme;
 }
